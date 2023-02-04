@@ -1,11 +1,10 @@
 import { Header } from "./Header/Header"
-import { LoginButton } from "./Button/LoginButton"
-import { login } from "../services/login"
+import { Login } from "./Login/Login"
 export const Card = () => {
   return(
     <div>
       <Header />
-      <LoginButton action={login} alert="Login"/>
+      <Login />
     </div>
   )
 }
