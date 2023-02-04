@@ -1,15 +1,9 @@
-interface ICard {
-  id: number,
-  paragraph: string,
-  details: string
-}
+import { Header } from "./Header/Header"
 
-export const Card = ({ id, paragraph, details }: ICard) => {
+export const Card = () => {
   return(
     <div>
-      <h1>Card {id}</h1>
-      <p>{paragraph}</p>
-      <p>{details}</p>
+      <Header />
     </div>
   )
 }
