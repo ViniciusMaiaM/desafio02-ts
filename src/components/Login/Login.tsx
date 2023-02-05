@@ -40,12 +40,12 @@ export const Login = () => {
                                 <FormControl variant='floating' id='first-name' >
                                     <InputGroup width='xs' >
                                         <Input placeholder=" " type='email' variant='flushed' focusBorderColor='#820AD1'/>
-                                        <FormLabel color='gray'>First name</FormLabel>
+                                        <FormLabel color='#7A859E'>CPF</FormLabel>
                                     </InputGroup>
                                 </FormControl>
                             </Center>
                             <InputGroup width='xs'>
-                                <Input placeholder="password" type={show ? 'text' : 'password'}  variant='flushed' focusBorderColor='#820AD1' />
+                                <Input placeholder="Senha" type={show ? 'text' : 'password'}  variant='flushed' focusBorderColor='#820AD1' />
                                 <InputRightElement width='4.5rem'>
                                     <Button h='1.75rem' size='sm' onClick={handleClick}>
                                     {show ? 'Hide' : 'Show'}
